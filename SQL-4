@@ -3,3 +3,5 @@ Select count(distinct village_name) from village;
 select province_name from province;
 select province_name from province union select province_name from province;
 select province_name from province union all select province_name from province;
+select p1.province_name from province2015 p1 where p1.province_name not in (select p2.province_name from province p2);
+
