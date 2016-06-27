@@ -1,2 +1,5 @@
 Select count(village_name) from village; 
 Select count(distinct village_name) from village;
+select province_name from province;
+select province_name from province union select province_name from province;
+select province_name from province union all select province_name from province;
