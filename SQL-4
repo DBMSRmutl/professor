@@ -7,3 +7,4 @@ select p1.province_name from province2015 p1 where p1.province_name not in (sele
 select province_name from province order by convert (province_name using tis620);
 (select province_name from province) union (select province_name from province) order by convert (province_name using tis620);
 (select province_name from province) union all (select province_name from province) order by convert (province_name using tis620);
+select sum(province_ID) from province;
