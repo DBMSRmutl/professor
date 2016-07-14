@@ -16,8 +16,8 @@ select province_ID, province_name from province where province_ID=10 or province
 select min(province_name) from province;
 select max(province_name) from province;
 select hex(min(province_name)) from province;
-select min(province_name), hex(min(province_name))   from province;
-select max(province_name), hex(max(province_name))  from province;
+select min(province_name), hex(min(province_name)) from province;
+select max(province_name), hex(max(province_name)) from province;
 select hex(max(province_name)) from province;
 select min(convert (province_name using tis620)) from province;
 select max(convert (province_name using tis620)) from province;
